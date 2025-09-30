@@ -8,15 +8,15 @@ def home():
 
 @app.route("/news")
 def news():
-    return "Čia pagrindinis naujienų puslapis"
+    return "This is a main news page"
 
 @app.route("/news/<int:item>")
 def news_item(item):
-    return f"Čia naujiena NR {item}"
+    return f"This is new NR {item}"
 
 @app.route("/<text>")
 def any_route(text):
-    return f"Jūs surinkote maršrutą {text} Jokio resurso čia nėra"
+    return f"You entered the route {text}  There in no any resources"
 
 if __name__ == "__main__":
     app.run()
