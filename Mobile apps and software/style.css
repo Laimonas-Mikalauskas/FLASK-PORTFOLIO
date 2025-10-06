@@ -1,0 +1,64 @@
+@media screen { 760 px
+body {
+        font-size: 15px;
+        line-height: 1.8;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    header, footer {
+        background-color: grey;
+        color: black;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    nav {
+        background-color: blue;
+        color: black;
+        text-align: center;
+        padding: 1em;
+    }
+
+    nav a {
+        color: red;
+        margin: 0 6em;
+        text-decoration: none;
+    }
+
+    main {
+        padding: 0,5em;
+    }
+
+    @media (min-width: 560px) {
+        body {
+            font-size: 25px;
+        }
+
+        nav {
+        text-align: center;
+        }
+
+        nav a {
+            display: block;
+            margin: 0.5em 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        body {
+            font-size: 25px;
+        }
+
+        nav {
+        text-align: center;
+        }
+
+        nav a {
+            display: block;
+            margin: 0.5em 0;
+        }
+    }
+
+
