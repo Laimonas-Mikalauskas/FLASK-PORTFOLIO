@@ -1,4 +1,4 @@
-@media screen { 760 px
+@media screen { 992 px
 body {
 
 }
@@ -39,7 +39,7 @@ body {
         padding: 0,5em;
     }
 
-    @media (min-width: 560px) {
+    @media (min-width: 992px) {
         body {
             font-size: 25px;
         }
@@ -54,7 +54,7 @@ body {
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1700px) {
         body {
             font-size: 25px;
             display: grid;
